@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /**
  * how to create nested html
  * <div id = "parent">
@@ -20,7 +23,7 @@ const heading = React.createElement(
     {id :"1"},
     "Hello World from React");
 
-console.log(heading); // heading is not <h1> tag, it is a react element
+console.log(heading); // heading/nested is not <h1> tag, it is a react element
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
