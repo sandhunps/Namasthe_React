@@ -1,0 +1,30 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "Namasthe Javascript",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhunps/Namasthe_React.git"
+  },
+  "author": "Sandhun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandhunps/Namasthe_React/issues"
+  },
+  "homepage": "https://github.com/sandhunps/Namasthe_React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist":[
+    "last 2 versions"]
+}
